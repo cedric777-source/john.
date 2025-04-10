@@ -3,46 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lubena Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-
-    
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <div class="navbar">  
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="aboutme.html">About Me</a>
-            <a href="achi.html">Achievements</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-        
-    </div>
     
-    <div class="hero-section">
-        <div>
-            <h1><strong>LETS WORK TOGETHER</strong></h1>
-            <h2>Contact No:</h2><p>09559183871</p>
-            <br>
-            <h2>Email Address:</h2>
-            <p>jblubena9761qc@studen.fatima.edu.ph</p>
-            <br>
-            <h2>Address:</h2>
-            <p>Gulayan Site Republic ave Brgy. Holy spirit q.c</p>
-            <br>
-            <h2>Social Media:</h2>
-            <ul>
-                <li><p>Facebook: John</p></li>
-                <li><p>Instagram: John_gwapo</p></li>
-            </ul>
-        </div>
-        <img src="https://i.pinimg.com/474x/23/dc/50/23dc50cf3d835ad4decfb910a2638059.jpg" alt="Profile" class="circular-image2">
-    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="achievements.html">Achievements</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 
-    <footer>
-        <p>&copy; 2025 All Rights Reserved.</p>
-    </footer>
+<section id="contact">
+    <div class="container">
+        <h2>Contact Me</h2>
+
+        
+        <div id="contact-details">
+            <h3>My Contact Details</h3>
+            <div class="contact-box">
+                <label>Phone:</label>
+                <p>09651241071</p>
+            </div>
+            <div class="contact-box">
+                <label>Email:</label>
+                <p>jtsalas8936qc@student.fatima.edu.ph</p>
+            </div>
+            <div class="contact-box">
+                <label>Address:</label>
+                <p>B 51 L 40 6B, Brgy Gaya-Gaya, SJDM Bulacan</p>
+            </div>
+        </div>
+
+        <form action="submit_form.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+            <button type="reset">Clear</button>
+        </form>
+
+    </div>
+</section>
+
+
+<footer>
+    <p>&copy; 2025 Salas, John Cedric T. All Rights Reserved.</p>
+</footer>
 
 
 </body>
